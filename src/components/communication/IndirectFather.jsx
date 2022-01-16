@@ -16,8 +16,8 @@ export default props => {
 
     return (
         <div>
-            <span>{name}</span>
-            <span>{age}</span>
+            <span>{name} </span>
+            <span>{age} </span>
             <span>{nerd ? "Verdadeiro" : "Falso"}</span>
             <IndirectChild whenClick={getInformation}></IndirectChild>
         </div>
