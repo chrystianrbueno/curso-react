@@ -14,6 +14,7 @@ import ListStudents from "./components/loop/ListStudents";
 import TableProducts from "./components/loop/TableProducts";
 import OddOrEven from "./components/conditional/OddOrEven";
 import UserInfo from "./components/conditional/UserInfo";
+import Input from "./components/form/Input";
 
 export default _ => {
     return (
@@ -21,6 +22,10 @@ export default _ => {
             <h1>Fundamentos React</h1>
 
             <div className="Cards">
+                <Card title="Componente Controlado (Input)" color="#E45F56">
+                    <Input></Input>
+                </Card>
+
                 <Card title="Comunicação Indireta" color="#59323C">
                     <IndirectFather></IndirectFather>
                 </Card>
