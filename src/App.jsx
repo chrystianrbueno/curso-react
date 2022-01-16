@@ -15,6 +15,7 @@ import TableProducts from "./components/loop/TableProducts";
 import OddOrEven from "./components/conditional/OddOrEven";
 import UserInfo from "./components/conditional/UserInfo";
 import Input from "./components/form/Input";
+import Counter from "./components/counter/Counter";
 
 export default _ => {
     return (
@@ -22,16 +23,20 @@ export default _ => {
             <h1>Fundamentos React</h1>
 
             <div className="Cards">
+                <Card title="Contador" color="#E45F56">
+                    <Counter initialNumber={200}></Counter>
+                </Card>
+
                 <Card title="Componente Controlado (Input)" color="#E45F56">
-                    <Input></Input>
+                    <Input />
                 </Card>
 
                 <Card title="Comunicação Indireta" color="#59323C">
-                    <IndirectFather></IndirectFather>
+                    <IndirectFather />
                 </Card>
 
                 <Card title="Comunicação Direta" color="#59323C">
-                    <DirectFather></DirectFather>
+                    <DirectFather />
                 </Card>
 
                 <Card title="Renderização Condicional" color="#982395">
@@ -42,11 +47,11 @@ export default _ => {
                 </Card>
 
                 <Card title="Repetição Desafio" color="#FF4C65">
-                    <TableProducts></TableProducts>
+                    <TableProducts />
                 </Card>
 
                 <Card title="Repetição" color="#FF4C65">
-                    <ListStudents></ListStudents>
+                    <ListStudents />
                 </Card>
 
                 <Card title="Componentes com filhos" color="#00C8F8">
