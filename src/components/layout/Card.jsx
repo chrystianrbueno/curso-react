@@ -1,4 +1,4 @@
-import "./Card.css"
+import "./Card.css";
 import React from "react";
 
 export default (props) => {

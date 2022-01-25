@@ -16,6 +16,7 @@ import OddOrEven from "./components/conditional/OddOrEven";
 import UserInfo from "./components/conditional/UserInfo";
 import Input from "./components/form/Input";
 import Counter from "./components/counter/Counter";
+import Mega from "./components/mega/Mega";
 
 export default _ => {
     return (
@@ -23,8 +24,12 @@ export default _ => {
             <h1>Fundamentos React</h1>
 
             <div className="Cards">
+                <Card title="Mega" color="#B9006E">
+                    <Mega amount={6} />
+                </Card>
+
                 <Card title="Contador" color="#E45F56">
-                    <Counter initialNumber={200}></Counter>
+                    <Counter initialNumber={200} />
                 </Card>
 
                 <Card title="Componente Controlado (Input)" color="#E45F56">
